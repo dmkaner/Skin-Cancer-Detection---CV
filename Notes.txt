@@ -1,0 +1,14 @@
+Will split the job into 3 files to load and train the data, 
+create the neurl network architecture, and to test.
+
+
+
+Load Data 
+    - Will load the data in and use pytorch to normalize the data
+      and create a dataset. The data needs to be rescaled, and 
+      converted into tensors. Color could be useful so the 
+      images will not be converted to grayscale.
+
+NNArchitecture
+
+DetectionPipeline
